@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website bán đồ cơ khí </title>
+
+    <!-- import here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome_5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+                <!-- HEADER TOPBAR -->
+                <div class="header__topbar">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="l-4 m-4 c-0 header__topbar-item">
+                                <i class="header__topbar-icon fas fa-home"></i>
+                                HOME: 319 - C16 Lý Thường kiệt, P.15, Q.11, Tp.HCM
+                            </div>
+    
+                            <div class="l-4 m-4 c-0 header__topbar-item" style="text-align: right;">
+                                <i class="header__topbar-icon fas fa-clock"></i>
+                                Open Mon-Fri: 6:30AM to 7PM, Sat: 8AM to 5PM
+                            </div>
+    
+                            <div class="l-2 m-2 c-0 header__topbar-item" style="text-align: right;">
+                                <i class="header__topbar-icon fas fa-envelope"></i>
+                                info@themerex.ne
+                            </div>
+    
+                            <div class="l-2 m-2 c-0 header__topbar-item" style="text-align: right;">
+                                <i class="header__topbar-icon fas fa-arrow-right"></i>
+                                <a href="#" class="login">Login</a>
+                            </div>
+                        </div>
+                        <!-- END ROW -->
+                    </div>
+                    
+                </div>
+                <!-- END HEADER TOPBAR -->
+
+                <!-- HEADER MASTHEAD -->
+                <div class="header__masthead">
+                    <div class="grid wide">
+                        <div class="row header__masthead-list">
+                            <div class="l-3 header__masthead-logo">
+                                <a href="index.html">
+                                    <img src="assets/img/logo5.png" alt="logo" width="80" height="80">
+                                </a>
+                            </div>
+
+                            <div class="l-3 header__masthead-item">
+                                <div class="header__masthead-item-wrap">
+                                    <span class="phone-icon"><i class="fas fa-phone-volume"></i></span>
+                                    <span style="color: #999; font-size: 1.4rem; font-weight: 400;">Call Us</span>
+                                    <a href="tel:076 922 0162" id="tel">076 922 0162</a>
+                                </div>
+                            </div>
+
+                            <div class="l-3 header__masthead-item">
+                                <div class="header__masthead-item-wrap">
+                                    <a href="#" class="header__masthead-cart">
+                                        <span >GIỎ HÀNG/</span>
+                                        <span id="price">0</span>
+                                        <span style="text-decoration: underline">đ</span>
+                                        <span class="cart-icon"><i class="fas fa-shopping-cart"></i></span>
+
+                                        <div class="header__masthead-cart-list header__masthead-no-cart">
+                                            <span class="text-no-cart">Chưa có sản phẩm trong giỏ hàng</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="l-3 header__masthead-item">
+                                    <div class="header__masthead-item-wrap">
+                                        <div class="search-wrapper">
+                                            <div class="search-icon">
+                                                <i class="fas fa-search"></i>                                          
+                                            </div>
+
+                                            <div class="search-input-wrapper">
+                                                <input type="text" class="search-input" name="search" id="search" placeholder="Tìm kiếm...">   
+                                                <a href="#" class="search-input-icon"><i class="fas fa-search"></i></a>                                           
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- END ROW -->
+
+                    </div>
+                </div>
+                <!-- END HEADER MASTHEAD -->
+
+                <!-- HEADER NAVBAR -->
+                <div class="header__navbar">
+                    <div class="grid wide">
+                        <div class="row">
+                            <ul class="l-12 header__navbar-list">
+                                <li class="header__navbar-item">
+                                    <a href="#" class="header__navbar-link header__navbar-link--primary">TRANG CHỦ</a>
+                                </li>
+
+                                <li class="header__navbar-item">
+                                    <a href="#" class="header__navbar-link">GIỚI THIỆU</a>
+                                </li>
+
+                                <li class="header__navbar-item">
+                                    <a href="#" class="header__navbar-link">
+                                        CỬA HÀNG
+                                        <i class="fas fa-chevron-down"></i>
+                                    </a>      
+                                    
+                                    <ul class="header__sub-navbar">
+                                        <li class="header__sub-navbar-item">
+                                            <a href="" class="header__sub-navbar-link">Giỏ hàng</a>
+                                        </li>
+                                        <li class="header__sub-navbar-item">
+                                            <a href="" class="header__sub-navbar-link">Thanh toán</a>
+                                        </li>
+                                        <li class="header__sub-navbar-item">
+                                            <a href="" class="header__sub-navbar-link">Kiểm tra đơn hàng</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="header__navbar-item">
+                                    <a href="#" class="header__navbar-link">TIN TỨC</a>
+                                </li>
+
+                                <li class="header__navbar-item">
+                                    <a href="#" class="header__navbar-link">LIÊN HỆ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- END HEADER NAVBAR -->
+
+            <!-- </div> -->
+        </header>
+
+        <div class="content">
+            <!-- SLIDER -->
+            <div class="grid">
+                <div class="slider">
+                
+                </div>
+            </div>
+            <!-- END SLIDER -->
+
+            <div class="banner">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-4 c-4">
+                            <a class="fill-banner-link">
+                                
+                            </a>
+                        </div>
+                        <div class="col l-4 m-4 c-4">
+                            <a class="fill-banner-link">
+                                
+                            </a>
+                        </div>
+                        <div class="col l-4 m-4 c-4">
+                            <a class="fill-banner-link">
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="text-align:center;font-size:4rem;line-height:4rem;color:#4f4a4a;">Sản phẩm hiện tại</h3>
+
+            <div class="content-section">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3">
+                            <div class="present-product-wrapper">
+                                <div class="present-product"></div>
+                                <div class="pricing-table"></div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="present-product-wrapper">
+                                <div class="present-product"></div>
+                                <div class="pricing-table"></div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="present-product-wrapper">
+                                <div class="present-product"></div>
+                                <div class="pricing-table"></div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="present-product-wrapper">
+                                <div class="present-product"></div>
+                                <div class="pricing-table"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="text-align:center;font-size:4rem;line-height:4rem;color:#4f4a4a;">Sản phẩm bán chạy</h3>
+
+            <div class="content-section">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3">
+                            <div class="present-product-wrapper">
+                                <div class="present-product"></div>
+                                <div class="pricing-table"></div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="present-product-wrapper">
+                                <div class="present-product"></div>
+                                <div class="pricing-table"></div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="present-product-wrapper">
+                                <div class="present-product"></div>
+                                <div class="pricing-table"></div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="present-product-wrapper">
+                                <div class="present-product"></div>
+                                <div class="pricing-table"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="test"></div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body js-modalContainer">
+                <!-- Register form -->
+                <div class="authentication-form authentication-form__register">
+                    <div class="authentication-form__container">
+                        <!-- Header form-->
+                        <div class="authentication-form__header">
+                            <h3 class="authentication-form__heading">Đăng ký</h3>
+                            <span class="authentication-form__switchbtn authentication-form__switchbtn-login">Đăng nhập</span>
+                        </div>
+                        
+                        <!-- Form -->
+                        <form action="" method="post" class="authentication-form__form">
+                            <div class="authentication-form__group">
+                                <input type="email" class="authentication-form__input" placeholder="Nhập email của bạn">
+                            </div>
+
+                            <div class="authentication-form__group">
+                                <input type="text" class="authentication-form__input" placeholder="Nhập tên tài khoản của bạn">
+                            </div>
+
+                            <div class="authentication-form__group">
+                                <input type="password" class="authentication-form__input" placeholder="Nhập mật khẩu của bạn">
+                            </div>
+
+                            <div class="authentication-form__group">
+                                <input type="password" class="authentication-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                            </div>
+
+                            <!-- authentication-form__group: input submit and input back -->
+                            <div class="authentication-form__control">
+                                <input type="submit" class="btn authentication-form__back" value="TRỞ LẠI">
+                                <input type="submit" class="btn btn--primary" value="ĐĂNG KÝ">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- End register form -->
+
+                <!-- Login form -->
+                <div class="authentication-form authentication-form__login active">
+                    <div class="authentication-form__container">
+                        <!-- Header form-->
+                        <div class="authentication-form__header">
+                            <h3 class="authentication-form__heading">Đăng nhập</h3>
+                            <span class="authentication-form__switchbtn authentication-form__switchbtn-register">Đăng ký</span>
+                        </div>
+                        
+                        <!-- Form -->
+                        <form action="" method="post" class="authentication-form__form">
+                            <div class="authentication-form__group">
+                                <input type="email" class="authentication-form__input" placeholder="Nhập email của bạn">
+                            </div>
+
+                            <div class="authentication-form__group">
+                                <input type="password" class="authentication-form__input" placeholder="Nhập mật khẩu của bạn">
+                            </div>
+
+                            <div class="authentication-form__aside">
+                                <div class="authentication-form__help">
+                                    <a href="" class="authentication-form__help-link authentication-form__help-forgot">Quên mật khẩu</a>
+                                    <span class="seperate"></span>
+                                    <a href="" class="authentication-form__help-link">Cần trợ giúp?</a>
+                                </div>
+                            </div>
+
+                            <!-- authentication-form__group: input submit and input back -->
+                            <div class="authentication-form__control">
+                                <input type="submit" class="btn authentication-form__back" value="TRỞ LẠI">
+                                <input type="submit" class="btn btn--primary" value="ĐĂNG NHẬP">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- End login form -->
+        </div>
+    </div>
+
+    <script>
+        const btnLogin = document.querySelector('.login');
+        const modalConstainer = document.querySelector('.js-modalContainer');
+
+        // add event click listener for btnLogin when
+        // click on btnLogin, show modal
+        btnLogin.addEventListener('click', () => {
+            const modal = document.querySelector('.modal');
+            modal.classList.add('modal--show');
+        });
+
+        //close modal when click  modal__overlay
+        const modalOverlay = document.querySelector('.modal__overlay');
+        modalOverlay.addEventListener('click', () => {
+            const modal = document.querySelector('.modal');
+            modal.classList.remove('modal--show');
+        });
+
+        // switch between login and register form
+        const switchbtnRegister = document.querySelector('.authentication-form__switchbtn.authentication-form__switchbtn-register');
+        const switchbtnLogin = document.querySelector('.authentication-form__switchbtn.authentication-form__switchbtn-login');
+        const loginForm = document.querySelector('.authentication-form.authentication-form__login');
+        const registerForm = document.querySelector('.authentication-form.authentication-form__register');
+        
+        switchbtnRegister.addEventListener('click', () => {
+            loginForm.classList.remove('active');
+            registerForm.classList.add('active');
+        });
+
+        switchbtnLogin.addEventListener('click', () => {
+            registerForm.classList.remove('active');
+            loginForm.classList.add('active');
+        });
+    </script>
+</body>
+</html>
